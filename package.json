@@ -1,0 +1,25 @@
+{
+  "name": "cypress-gitActions",
+  "version": "1.0.0",
+  "description": "Curso 'Cypress, do Zero à Nuvem' da Escola Talking About Testing.",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io",
+    "Talking About Testing",
+    "Cypress, do Zero à Nuvem",
+    "Cypress Cloud",
+    "GitHub Actions",
+    "Escola TAT"
+  ],
+  "author": "Edmar Nunes",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.12.0"
+  }
+}
